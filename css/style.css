@@ -1,0 +1,38 @@
+/*.tree {
+    text-align: center;
+}
+.tree .layer {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.tree .layer span {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.tree .layer span:before {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid green;
+}
+.tree .trunk {
+    width: 20px;
+    height: 40px;
+    background-color: brown;
+    margin: 0 auto;
+/* }
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+
+}
+#canvas {
+   
+    width : 100vw;
+    height : 100vh;
+} */
